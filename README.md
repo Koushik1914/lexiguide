@@ -215,6 +215,9 @@ For immediate judging and evaluation:
 **CHOSEN VERTICAL:**  
 AI for Legal Assistance & Access
 
+**PUBLIC GITHUB REPOSITORY LINK:**  
+https://github.com/Koushik1914/lexiguide
+
 **DEPLOYED LINK:**  
 https://modern-bat-45.loca.lt
 

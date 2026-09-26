@@ -201,3 +201,26 @@ For immediate judging and evaluation:
 3. Review the **Obligations Matrix**, **Timeline**, **Financial Terms**, and **Issues**.
 4. Test **Ask Document** with pre-configured questions like *"What is my notice period?"* or *"What happens if I resign?"*.
 5. Test **Compare Docs** to observe the difference between Version 1.0 (₹50k salary, 15 days notice) and Version 2.0 (₹60k salary, 30 days notice).
+
+---
+
+## 12. Live Deployment
+- **Live Application URL:** [https://funny-gifts-judge.loca.lt](https://funny-gifts-judge.loca.lt)
+- **Local Fallback Port:** `http://localhost:3000`
+
+---
+
+## 13. Hackathon Submission Form
+
+**CHOSEN VERTICAL:**  
+AI for Legal Assistance & Access
+
+**DEPLOYED LINK:**  
+https://funny-gifts-judge.loca.lt
+
+**DESCRIPTION OF CHANGES/UPDATES:**  
+LexiGuide is an AI Legal Document & Rights Navigator designed to empower everyday citizens, tenants, and workers to understand complex legal agreements without confusing legalese. Adhering to the principle of "Upload -> Understand -> Ask -> Verify -> Act", LexiGuide extracts plain-English summaries, maps user obligations versus counterparty duties, and generates visual timelines of deadlines and notice windows. The platform features an in-memory RAG Q&A engine that grounds every answer in verbatim contract clauses, preventing hallucinations. LexiGuide also introduces a Document Version Diff engine to compare contract drafts, an interactive plain-English legal glossary, and a context-aware triage system that detects urgent situations (court summons, eviction notices) to route users directly to licensed legal aid. All processing is ephemeral and hardened against prompt injections, ensuring strict privacy and responsible AI practices.
+
+**GEN AI SERVICES UTILIZED:**  
+Google Gemini API (gemini-1.5-flash and text-embedding-004) powers LexiGuide via a modular provider abstraction with full fallback to realistic simulated demo mode. Gemini is utilized across seven distinct modules: (1) Executive Contract Summarization and clause classification; (2) Source-Grounded Document Q&A using a hybrid in-memory RAG pipeline combining dense vector embeddings with BM25 keyword matching for verbatim citation mapping; (3) Structured Information Extraction generating validated JSON schemas for obligations, financial compensation, and relative deadlines; (4) Document Comparison Engine analyzing Version A vs Version B to classify clauses as ADDED, REMOVED, MODIFIED, or UNCHANGED; (5) Legal Term Explainer translating Latin and arcane contract terms into everyday language; (6) Context-Aware Urgency Triage identifying emergency deadlines; and (7) General Legal Information Mode providing educational explanations without fabricated statutes.
+

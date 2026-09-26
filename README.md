@@ -205,7 +205,7 @@ For immediate judging and evaluation:
 ---
 
 ## 12. Live Deployment
-- **Live Application URL:** [https://funny-gifts-judge.loca.lt](https://funny-gifts-judge.loca.lt)
+- **Live Application URL:** [https://lexiguide-navigator.loca.lt](https://lexiguide-navigator.loca.lt)
 - **Local Fallback Port:** `http://localhost:3000`
 
 ---
@@ -216,7 +216,7 @@ For immediate judging and evaluation:
 AI for Legal Assistance & Access
 
 **DEPLOYED LINK:**  
-https://funny-gifts-judge.loca.lt
+https://lexiguide-navigator.loca.lt
 
 **DESCRIPTION OF CHANGES/UPDATES:**  
 LexiGuide is an AI Legal Document & Rights Navigator designed to empower everyday citizens, tenants, and workers to understand complex legal agreements without confusing legalese. Adhering to the principle of "Upload -> Understand -> Ask -> Verify -> Act", LexiGuide extracts plain-English summaries, maps user obligations versus counterparty duties, and generates visual timelines of deadlines and notice windows. The platform features an in-memory RAG Q&A engine that grounds every answer in verbatim contract clauses, preventing hallucinations. LexiGuide also introduces a Document Version Diff engine to compare contract drafts, an interactive plain-English legal glossary, and a context-aware triage system that detects urgent situations (court summons, eviction notices) to route users directly to licensed legal aid. All processing is ephemeral and hardened against prompt injections, ensuring strict privacy and responsible AI practices.
